@@ -1,0 +1,4 @@
+.h_lastwidth{
+    width: 80%;
+    padding-right: 17%;
+}

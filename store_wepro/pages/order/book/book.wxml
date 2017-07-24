@@ -1,0 +1,37 @@
+<view class="sale-details-contans">
+  <view class="sale-detail-box">
+    <block wx:for="{{lists}}">
+      <view class="sale-list-box">
+        <image class="sale-img" src="{{item.goods_img}}"></image>
+        <view class="sale-left-box">
+          <text class="sale-title">{{item.goods_name}}</text>
+          <view class="sale-total-modle">
+            <view>订单总额：
+              <text class='summoney'>¥{{item.order_amount}}</text>
+            </view>
+            <view bindtap="del" class="detail-bous" data-id="{{item.id}}">
+              <image src="http://juyuanimg.oss-cn-shenzhen.aliyuncs.com/wx/detele.png"></image>
+            </view>
+          </view>
+          <text class="sale-total-modle">数量：{{item.order_goods_num}} 件</text>
+        </view>
+      </view>
+    </block>
+  </view>
+  <view class='row base hsko' bindtap="toadd">
+    <view class='row'>
+      <image class='sdw' src="http://juyuanimg.oss-cn-shenzhen.aliyuncs.com/wx/1.png"></image>
+      <text class='choos'>选择商品</text>
+    </view>
+    <view class='row sdsa'>
+      <text>添加商品</text>
+      <text class='point'></text>
+    </view>
+  </view>
+  <view class='base row h_jes'>
+    <button bindtap="submitc" class='epass wiks'>提交订单</button>
+  </view>
+  <modal hidden='{{flag}}' bindconfirm='confirm' bindcancel='cancel' class='h_modal' confirm-text="是的" cancel-text="取消" title="删除商品">
+    <view style='text-align:center;color:#8D9FA7;'>确定删除该商品</view>
+  </modal>
+</view>

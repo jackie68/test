@@ -1,0 +1,43 @@
+<view class="regist-contances">
+  <form bindsubmit="formSubmit">
+    <text class="regist-titel">登录信息：</text>
+    <view class="modular-box">
+      <label>手机号码</label>
+      <input placeholder-class="placeh-style" name="phoneNumber" bindinput="bindPhone" type="number" maxlength="11" placeholder="手机号码" />
+    </view>
+    <view class="modular-box">
+      <label>验证码</label>
+      <input class="verit-code" name="codeValue" placeholder-class="placeh-style" type="number" placeholder="验证码" />
+      <text class="get-code" bindtap="getCodeBtn">{{coderValue}}</text>
+    </view>
+    <view class="modular-box">
+      <label>密码</label>
+      <input class="setPassword" name="passwordValue" focus="{{focusBool}}" placeholder-class="placeh-style" type="{{passwordType}}" placeholder="6～20字符" />
+      <text class="get-code" bindtap="getCode" data-typeId="{{typeId}}">{{showpwd}}</text>
+    </view>
+    <text class="regist-titel">店员信息：</text>
+    <view class="modular-box">
+      <label>选择店铺</label>
+      <picker bindchange="bindPickerChange" value="{{provinceIndex}}" range="{{distribuArray.store_name}}">
+        <view class="picker">
+          {{distribuArray.store_name[provinceIndex]}}
+        </view>
+      </picker>
+      <input type="hidden" name="distributorId" value="{{distritId}}" />
+    </view>
+    
+    <view class="modular-box">
+      <label>详细地址</label>
+      <input placeholder-class="placeh-style" name="addressValue" type="text" placeholder="详细地址" />
+    </view>
+    <view class="modular-box">
+      <label>真实姓名</label>
+      <input placeholder-class="placeh-style" name="nameValue" type="text" placeholder="真实姓名" />
+    </view>
+    <view class="modular-box">
+      <label>身份证号</label>
+      <input placeholder-class="placeh-style" name="cardIdNumber" type="text" placeholder="身份证号" />
+    </view>
+    <button class="submit-success-btn" formType="submit">完成注册</button>
+  </form>
+</view>

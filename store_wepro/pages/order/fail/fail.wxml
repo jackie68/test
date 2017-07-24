@@ -1,0 +1,7 @@
+<view class="cash-contans">
+  <image class="succes-logo" src="http://juyuanimg.oss-cn-shenzhen.aliyuncs.com/wx/Group%2018.png"></image>
+  <text class="operation-succes">操作失败</text>
+  <text class="cash-appliction">订单提交失败</text>
+  <text class="Re-present-btn" bindtap='againtx'>重新提交订单</text>
+  <text class="cash-ruturn-btn"  bindtap='backindex'>返回首页</text>
+</view>

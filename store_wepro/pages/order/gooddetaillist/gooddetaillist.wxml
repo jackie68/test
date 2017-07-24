@@ -1,0 +1,45 @@
+<view class='base h_wrap'>
+<view class='box'></view>
+<view class='fix'>
+  <view class="section section_gap">
+    <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
+      <block wx:for="{{temp}}">
+         <view class="scroll-view-item_H" bindtap="trun" data-green="{{index}}" id="{{item.id}}">
+          <text class='{{greenTab==index?"greens":""}}'>{{item.category_name}}</text>
+        </view>
+      </block>
+    </scroll-view>
+  </view>
+</view>
+  <view class='base col'>
+  <block  wx:for="{{goods}}" wx:for-item='gd'>
+    <view class='base row goodlists' bindtap="mcal" data-id='{{gd.id}}' data-indexs="{{index}}">
+      <view >
+        <image class='goods' src="{{gd.goods_img}}"></image>
+      </view>
+      <view class='col weo'>
+        <view class="goodsname">{{gd.goods_name}}</view>
+        <view class="goodssum">市场价：
+          <text class='orange'>￥{{gd.goods_price}}</text>
+        </view>
+      </view>
+      <view class='col shenhe'>
+        <view class='base vercen shentext row'>
+          <text class='point'></text>
+        </view>
+      </view>
+
+
+
+    </view>
+     </block>
+  </view>
+
+  <modal hidden="{{flag}}" bindconfirm='confirm' bindcancel='cancel' class='h_modal' confirm-text="确认" cancel-text="取消">
+    <view class='namesk'>{{godn}}</view>
+    <view>市场价：
+      <text class='oragens'>￥{{gopr}}</text>
+    </view>
+    <input type="number" placeholder="请输入商品数量" bindblur="nums" placeholder-class="pals" class='hesk' value="{{ks}}"/>
+  </modal>
+</view>

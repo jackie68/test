@@ -1,0 +1,25 @@
+<view class='base h_wrap'>
+<form bindsubmit="formSubmit">
+       <view>
+         <text class='h_sametext'>原密码：</text>
+         <view class='base'>
+            <input placeholder-class='h_placeholder' class='h_sameinput' maxlength='15' password name='phonenumber' bindblur="inputnums" id='numbersd'   placeholder="输入密码" value="{{phonenums}}"/>
+            <!--<image bindtap="clearnums" class='h_disclear' hidden="{{clearnum}}"  src="../../../resources/image/nation/Rectangle 66.png"></image>-->
+         </view>
+    </view>
+
+
+       <view>
+         <text class='h_sametext'>新密码：</text>
+          <view class='base'>
+            <input placeholder-class='h_placeholder' type="{{typekind}}" name='password' class='h_sameinput h_lastwidth'  maxlength='15'  bindfocus="pwdfocus" focus="{{pwdsk}}" value="{{phonepwd}}" placeholder="密码为6～15字符"/>
+              <!--<image bindtap="clearpwd" class='h_noclear' hidden="{{clearpwd}}"   src="../../../resources/image/nation/Rectangle 66.png"></image>-->
+            <text class='h_getcode' bindtap="showpwd">{{showpwd}}</text>
+         </view>
+    </view>
+      <!--修改密码-->
+   <button form-type="submit" class='h_shsy'>
+        修改密码
+   </button>
+</form>
+</view>

@@ -1,0 +1,24 @@
+<view class="present-contans">
+<block wx:if="{{temp !='' }}">
+  <view class="present-list-box" wx:for="{{temp}}" wx:for-item="data" wx:for-index="i" >
+    <view class="mention-wechat-box">
+      <text class="metion-weight">提现至微信：</text>
+      <text class="wechat-monty">{{data.op_money}}</text>
+    </view>
+    <view class="present-state">
+      <text class="metion-weight">提现状态：</text>
+      <text wx:if="{{data.status==0}}" class="review-ing">审核中</text>
+      <text wx:elif="{{data.status==1}}" class="review-success">审核成功</text>
+      <text wx:else class="review-reject">审核失败</text>
+    </view>
+    <text wx:if="{{data.status==2}}"  class="present-time">{{data.refuse_time}}</text>
+    <text wx:else  class="present-time">{{data.add_time}}</text>
+
+  </view>
+</block>
+<block wx:else>
+<!--没有数据-->
+  <image class="data-nothing" src="http://juyuanimg.oss-cn-shenzhen.aliyuncs.com/wx/noData-iocn.png"></image>
+  <text class="data-text">还没有申请过提现</text> 
+</block>
+</view>

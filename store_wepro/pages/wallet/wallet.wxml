@@ -1,0 +1,14 @@
+<view class="wallet-contans">
+  <view class="wallet-title-box">
+    <text class="wallet-hasthe">已兑金额：</text>
+    <text>¥{{withdraw}}</text>
+    <text class="present-record" bindtap='record'>提现记录
+      <text class="triangle-icon"></text>
+    </text>
+  </view>
+  <image class="gold-icon" src="http://juyuanimg.oss-cn-shenzhen.aliyuncs.com/wx/Group%2011.png"></image>
+  <text class="current-balance">当前余额(元)</text>
+  <text class="balace-money">{{yue}}</text>
+  <view class="wallte-gross-box">总收入(元) {{sum}}</view>
+  <view class="applicat-buttom" bindtap='sendq'>提现申请</view>
+</view>

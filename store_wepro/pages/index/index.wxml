@@ -1,0 +1,29 @@
+<form bindsubmit="formSubmit">
+<view class="flex-container">
+
+  <view class="flex-item flex-item-text">
+    <text>请扫描商品条形码:</text>
+  </view>
+
+  <view class="flex-item flex-item-input pos-rel" bindtap="scanCode">
+      <input type="text" name="code" disabled="{{true}}" value="{{code}}" style="display:none" />
+      <text>{{code}}</text>
+      <image class="pos-abs" src="../../resources/image/small_scan.png"></image>
+  </view>
+
+  <view class="flex-item flex-item-text">
+    <text>入库数量:</text>
+  </view>
+
+  <view class="flex-item flex-item-input">
+    <input type="number" name="add_goods_stoke" />
+  </view>
+
+  <view class="flex-item" style="margin-top:80rpx;">
+    <button formType="submit">提交</button>
+  </view>
+
+</view>
+</form>
+
+

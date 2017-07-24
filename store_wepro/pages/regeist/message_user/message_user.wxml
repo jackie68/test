@@ -1,0 +1,24 @@
+<view class='base h_wrap'>
+      <view>
+         <text class='h_sametext'>姓名：</text>
+          <view class='base'>
+            <input placeholder-class='h_placeholder' disabled class='h_sameinput'  type='text' value="{{truename}}"/>
+         </view>
+    </view>
+
+     <view>
+         <text class='h_sametext'>身份证号：</text>
+          <view class='base'>
+            <input placeholder-class='h_placeholder' disabled class='h_sameinput' type='text' value="{{idcard}}"/>
+         </view>
+    </view>
+     <!--正面-->
+     <view  class='h_idcard' >
+        <image class='h_idcardmo' src="http://juyuanimg.oss-cn-shenzhen.aliyuncs.com/wx/Rectangle%2031.png"></image>
+        <text class='h_tesk'>{{uploadmess}}</text>
+     </view>
+     <!--<view class='h_cardksuo' hidden>
+        <image class='h_cardks' src="http://img1.utuku.china.com/649x0/news/20170228/67dddb60-34c7-4afd-8863-2426f2013ad0.jpg"></image>
+        <text class='h_reupload'>重新上传</text>
+     </view>-->
+</view>

@@ -1,0 +1,172 @@
+page {
+  background: #eee;
+}
+
+.h_wrap {
+  margin-top: 0;
+}
+
+.heads {
+  width: 92%;
+}
+
+.heads text {
+  font-weight: bold;
+  display: inline-block;
+  width: 21.33%;
+  margin: 0 6%;
+  color: #4f5f66;
+  text-align: center;
+  font-size: 28rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+}
+
+.heads .green {
+  color: #27cc23;
+  border-bottom: 4rpx solid #27cc23;
+}
+
+.goodlists {
+  padding: 20rpx 0;
+  border-radius: 10rpx;
+  background: #fff;
+  margin-bottom: 20rpx;
+}
+
+.goods {
+  width: 120rpx;
+  height: 120rpx;
+  margin: 20rpx;
+}
+
+.weo {
+  width: 60%;
+  font-size: 28rpx;
+}
+
+.goodsname {
+  color: #4f5f66;
+  font-weight: bold;
+  margin: 10rpx 0;
+}
+
+.goodssum {
+  color: #4f5f66;
+  margin: 10rpx 0;
+}
+
+.goodstime {
+  color: #8d9fa7;
+  font-size: 24rpx;
+}
+
+.shenhe {
+  width: 12%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.shentext {
+  color: #fd5e24;
+  font-size: 24rpx;
+  text-align: right;
+  overflow: hidden;
+  height: 50rpx;
+}
+
+.point {
+  display: block;
+  width: 10rpx;
+  height: 10rpx;
+  margin-right: 2%;
+  border-top: 4rpx solid #d1d1d1;
+  border-right: 4rpx solid #d1d1d1;
+  transform: rotate(45deg);
+}
+
+.orange {
+  color: #fd6229;
+}
+.box{
+  width: 100%;
+  height:100rpx;
+  position: relative;
+}
+.fix{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: #eee;
+  height: 96rpx;
+}
+.section {
+  position: relative;
+  padding: 0 50rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+  margin-bottom: 20rpx;
+}
+
+.scroll-view_H view {
+  display: inline;
+  
+  padding:0 20rpx;
+  white-space: nowrap;
+}
+
+.section_gap {
+  padding: 0 15px;
+}
+
+.scroll-view_H {
+  white-space: nowrap;
+  font-size: 28rpx;
+}
+
+.scroll-view-item {
+  height: 96rpx;
+}
+
+.scroll-view-item_H {
+  display: inline-block;
+  width: 100%;
+  height: 96rpx;
+  overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+.greens {
+  padding: 10rpx 0;
+  color: #27cc23;
+  border-bottom: 2px solid #27cc23;
+  
+}
+.h_modal view{
+  padding:0 20rpx;
+}
+.namesk{
+  font-family: '微软雅黑';
+  color:#4F5F66;
+  margin-bottom:20rpx;
+}
+.hesk{
+  height:80rpx;
+  line-height: 80rpx;
+  background: #eee;
+  margin:20rpx 0;
+  padding:0 20rpx;
+  color:#8D9FA7;
+}
+.pals{
+  color:#8D9FA7;
+  height:80rpx;
+  line-height: 80rpx;
+}
+.oragens{
+    color:#fd6229;
+  }

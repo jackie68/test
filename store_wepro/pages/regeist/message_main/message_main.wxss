@@ -1,0 +1,66 @@
+page{
+    background: #EEEEEE;
+}
+.h_posit{
+    /*width:100%;*/
+    background: #fff;
+    border-radius: 10rpx;
+    padding:30rpx 10rpx;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20rpx;
+}
+.h_iicon{
+    float: left;
+    width:40rpx;
+    height:40rpx;
+    margin:0 10rpx;
+    
+}
+
+.h_texts{
+    display: block;
+    width: 65%;
+    height:40rpx;
+    line-height:40rpx;
+    float: left;
+    font-size: 28rpx;
+    color: #4F5F66;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.h_rights{
+    margin-top: 2rpx;
+    float: right;
+    font-size: 24rpx;
+    color: #8D9FA7;
+}
+.h_fontw{
+    font-weight: bold;
+}
+.h_tests{
+    height:40rpx;
+    line-height:40rpx;
+}
+.h_rights .h_points{
+    display: block;
+    position: relative;
+    width: 10rpx;
+    height:10rpx;
+    float: right;
+    margin: 10rpx;
+    margin-top: 12.5rpx;
+    border-top:2px solid #D1D1D1;
+    border-right: 2px solid #D1D1D1;
+    transform: rotate(45deg);
+}
+.h_skl{
+    margin-bottom: 20rpx;
+}
+.h_poska{
+    position: absolute;
+    top:60rpx;
+    right: 10rpx;
+   
+}

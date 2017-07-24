@@ -1,0 +1,37 @@
+.cash-contans {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #4f5f66;
+  font-family: "微软雅黑";
+}
+
+.succes-logo {
+  width: 186rpx;
+  height: 186rpx;
+  margin-top: 107rpx;
+}
+
+.operation-succes {
+  font-size: 40rpx;
+  margin-top: 40rpx;
+}
+
+.cash-appliction {
+  font-size: 28rpx;
+  color: #8d9fa7;
+  margin-top: 28rpx;
+}
+
+.cash-ruturn-btn {
+  width: 700rpx;
+  height: 92rpx;
+  border: 1px solid #dfdfdf;
+  background: #f8f8f8;
+  border-radius: 10rpx;
+  margin-top: 132rpx;
+  line-height: 92rpx;
+  text-align: center;
+  font-size: 34rpx;
+  color: #4f5f66;
+}

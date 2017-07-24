@@ -1,0 +1,23 @@
+<view class="cash-drawall-contans">
+  <text class="drawal-title">提现至: 微信账户</text>
+  <view class="drawal-box">
+    <image class="drawal-watch-logo" src="http://juyuanimg.oss-cn-shenzhen.aliyuncs.com/wx/Rectangle%2094.png"></image>
+    <text class="drawal-account">账号</text>
+    <text class="watch-name">{{wxname}}</text>
+  </view>
+  <view class="drawa-input-box">
+    <text class="cach-icon">￥</text>
+    <input type="number" class="cash-input" bindinput="moneys" placeholder="最多可提取{{balance}}" />
+  </view>
+  <text class="min-cash-box">单次提现金额最少为50元</text>
+  <text class="applicat-btn" bindtap='subsq'>提交申请</text>
+
+    <modal hidden="{{flag}}" bindconfirm='confirm' bindcancel='cancel' class='h_modal' confirm-text="确认" cancel-text="取消" title="验证码已发送您手机">
+   <view>手机号：{{phonenum}}</view> 
+   <view>提现至微信：{{yues}}</view>
+    <view class='base h_sw'>
+    <input placeholder-class='h_placeholder' class='h_sameinput h_ksl' maxlength='6' type="number" name='mescode' bindblur="bfsk" placeholder-style='text-indent:0'  placeholder="输入验证码"/>
+    <text class='h_getcode' bindtap="getcode">{{getcode}}</text>
+  </view>
+   </modal>
+</view>

@@ -1,0 +1,38 @@
+<view class='base'>
+  <block wx:if="{{group_type == 5 || group_type == 6}}">
+    <view class='header'>
+      <view class='shopname'>所属店铺：{{shop_name}}</view>
+      <view class='base salething col'>
+        <view class='sum'>总销售额（元）</view>
+        <view class='money'>{{total_sales}}</view>
+      </view>
+      <view class='base sumin row'>
+        <view class='h_sumsr'>总收入：{{total_income}}</view>
+        <view class='h_yue'>余额：{{balance}}</view>
+      </view>
+    </view>
+  </block>
+  <block wx:else>
+    <view class='header'>
+    </view>
+  </block>
+
+  <!--主体-->
+  <view class='base h_body'>
+    <view class='h_lists' wx:for="{{lists}}">
+      <navigator hover-class="none" class='h_lilist col' url="{{item.href}}">
+        <image class='h_imglists' src="{{item.imgsrc}}" bindtap="{{item.bindtap}}"></image>
+        <text class='h_textlists'>{{item.text}}</text>
+      </navigator>
+    </view>
+
+    <!--退出登录-->
+    <view class='h_lilist col' bindtap='quit'>
+      <image class='h_imglists' src="http://juyuanimg.oss-cn-shenzhen.aliyuncs.com/wx/Group8.png"></image>
+      <text class='h_textlists'>退出登录</text>
+    </view>
+  </view>
+  <modal hidden="{{flag}}" bindconfirm='confirm' bindcancel='cancel' class='h_modal' confirm-text="确定" cancel-text="取消" title="退出登录">
+    <view style='text-align:center'>确定退出登录</view>
+  </modal>
+</view>

@@ -1,0 +1,63 @@
+<view class='base h_wrap'>
+    <!--<view class='h_posit row' bindtap='checkmes'>
+        <view class='base col'>
+            <view class='h_skl'>
+            <image class='h_iicon' src="http://juyuanimg.oss-cn-shenzhen.aliyuncs.com/wx/Rectangle2.png"></image>
+            <text class='h_texts'><text class='h_fontw'>姓名：</text>{{name}}</text>
+            </view>
+            <view>
+            <image class='h_iicon' src="http://juyuanimg.oss-cn-shenzhen.aliyuncs.com/wx/Rectangle%2071.png"></image>
+            <text class='h_texts'><text class='h_fontw'>身份证号：</text>{{idcard}}</text>
+            </view>
+        </view>
+        <view class='h_rights h_poska'>
+                <text class='h_tests'>查看信息</text>
+                <text class='h_points'></text>
+            </view>
+    </view>-->
+
+    <!--<view class='h_posit'>
+        <view>
+            <image class='h_iicon' src="http://juyuanimg.oss-cn-shenzhen.aliyuncs.com/wx/Rectangle%2044.png"></image>
+            <text class='h_texts'><text class='h_fontw'>微信号：</text>{{wxname}}</text>
+            <view class='h_rights'>
+                <text class='h_tests' bindtap='rebind'>重新绑定</text>
+                <text class='h_points'></text>
+            </view>
+        </view>
+    </view>-->
+
+     <view class='h_posit' bindtap='changenum'>
+        <view>
+            <image class='h_iicon' src="http://juyuanimg.oss-cn-shenzhen.aliyuncs.com/wx/Rectangle%2017.png"></image>
+            <text class='h_texts'><text class='h_fontw'>手机号：</text>{{phonenum}}</text>
+            <view class='h_rights'>
+                <text class='h_tests'> 更改手机号</text>
+                <text class='h_points'></text>
+            </view>
+        </view>
+    </view>
+
+     <!--<view class='h_posit' bindtap='changeadr'>
+        <view>
+            <image class='h_iicon' src="http://juyuanimg.oss-cn-shenzhen.aliyuncs.com/wx/Rectangle%203.png"></image>
+            <text class='h_texts'><text class='h_fontw'>地址：</text>{{address}}</text>
+            <view class='h_rights'>
+                <text class='h_tests'>修改地址</text>
+                <text class='h_points'></text>
+            </view>
+        </view>
+    </view>-->
+
+     <view class='h_posit' bindtap='changepwd'>
+        <view>
+            <image class='h_iicon' src="http://juyuanimg.oss-cn-shenzhen.aliyuncs.com/wx/Rectangle.png"></image>
+            <text class='h_texts'><text class='h_fontw'>密码安全</text></text>
+            <view class='h_rights'>
+                <text class='h_tests'>修改密码</text>
+                <text class='h_points'></text>
+            </view>
+        </view>
+    </view>
+
+</view>

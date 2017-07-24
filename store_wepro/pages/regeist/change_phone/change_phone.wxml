@@ -1,0 +1,25 @@
+<view class='base h_wrap'>
+         <!--信息填写-->
+    <form bindsubmit="formSubmit">
+     <view>
+         <text class='h_sametext'>手机号：</text>
+         <view class="model-change">
+           <view class='base'>
+            <input placeholder-class='h_placeholder' class='' maxlength='11' type="number" name='phonenumber' bindblur="inputnums" id='numbersd' focus="{{falsk}}" bindfocus="numfocus" placeholder="手机号码" value="{{phonenums}}"/>
+            <image bindtap="clearnums" class='h_disclear change-icon' hidden="{{clearnum}}"  src="../../../resources/image/nation/Rectangle 66.png"></image>
+         </view>
+         </view>
+         <view class="model-change">
+          <view class='base'>
+            <input placeholder-class='h_placeholder' class='chage-box' maxlength='6' type="number" name='mescode' placeholder="验证码"/>
+            <text class='h_getcode change-top' bindtap="getcode">{{getcode}}</text>
+         </view>
+         </view>
+         
+    </view>
+
+      <button form-type="submit" class='{{classname}}'>
+          下一步
+      </button>
+</form>
+</view>

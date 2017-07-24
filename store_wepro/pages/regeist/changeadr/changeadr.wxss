@@ -1,0 +1,7 @@
+.h_modal view{
+    text-align: center;
+}
+.h_sameinput{
+    width:92%;
+    padding-right: 5%;
+}

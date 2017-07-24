@@ -1,0 +1,21 @@
+<view class="sale-details-contans">
+  <view class="sale-detail-box">
+  <block wx:for="{{lists}}">
+    <view class="sale-list-box">
+      <image class="sale-img" src="{{item.goods_img}}"></image>
+      <view class="sale-left-box">
+        <text class="sale-title">{{item.goods_name}}</text>
+        <view class="sale-total-modle">
+          <view>订单总额：<text class='summoney'>¥{{item.order_amount}}</text></view>
+          <view class="detail-bous">
+            <image src="http://juyuanimg.oss-cn-shenzhen.aliyuncs.com/wx/stat{{item.status}}.png"></image>
+          
+          </view>
+        </view>
+        <text class="sale-total-modle">数量：{{item.goods_num}} 件</text>
+      </view>
+    </view>
+
+    </block>
+  </view>
+</view>

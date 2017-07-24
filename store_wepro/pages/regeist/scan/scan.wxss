@@ -1,0 +1,13 @@
+.camera-btn{
+    display: block;
+    height: 88rpx;
+    line-height: 88rpx;
+    border:1px solid #EFEFEF;
+    width: 500rpx;
+    font-size: 28rpx;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    border-radius: 10rpx;
+    margin-top: 300rpx;
+}

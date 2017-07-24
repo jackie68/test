@@ -1,0 +1,4 @@
+<view>{{result}}</view>
+
+
+<!--<text class="camera-btn" bindtap="camera">调用摄像头扫描</text>-->

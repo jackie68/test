@@ -1,0 +1,6 @@
+<view class="cash-contans">
+  <image class="succes-logo" src="http://juyuanimg.oss-cn-shenzhen.aliyuncs.com/wx/Group%2066.png"></image>
+  <text class="operation-succes">操作成功</text>
+  <text class="cash-appliction">订单已提交成功，可在订单列表查看审核状态</text>
+  <text class="cash-ruturn-btn" bindtap='backindex'>返回首页</text>
+</view>

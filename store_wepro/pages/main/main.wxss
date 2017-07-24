@@ -1,0 +1,73 @@
+.header{
+    width:100%;
+    background: #303030;
+    padding: 40rpx 0;
+}
+.shopname{
+    width: 100%;
+    text-align: center;
+    color: #B1B1B1;
+    font-size: 28rpx;
+}
+.salething{
+    margin-left: 5%;
+    margin-top: 60rpx;
+}
+.sum{
+ 
+  width:100%;
+  color: #ECECEC;
+  font-size: 28rpx; 
+  
+}
+.money{
+    width:100%;
+    font-size:60rpx;
+    color: #32D42E;
+    margin-top: 30rpx;
+    margin-bottom: 40rpx;
+}
+.sumin{
+    margin-left: 5%;
+     font-size:28rpx;
+     color:#fff; 
+}
+.h_sumsr{
+     font-size:28rpx;
+     color:#fff; 
+     margin-right: 20%;
+}
+.h_yue{
+     font-size:28rpx;
+     color:#fff; 
+}
+.h_body{
+    width:96%;
+    margin: 50rpx auto;
+    overflow: hidden;
+  
+}
+.h_lilists{
+    width:100%;
+
+}
+.h_lilist{
+    width:25%;
+    float: left;
+    overflow: hidden;
+    margin-bottom:40rpx;
+}
+.h_imglists{
+    width:96rpx;
+    height: 96rpx;
+    margin: 0 auto;
+}
+.h_textlists{
+    color:#4F5F66;
+   font-size: 24rpx; 
+   margin-top: 20rpx;
+   text-align: center;
+}
+navigator{
+
+}

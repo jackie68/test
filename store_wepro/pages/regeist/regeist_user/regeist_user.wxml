@@ -1,0 +1,95 @@
+
+<!--注册界面-->
+<view class='base h_wrap'>
+  <form bindsubmit="formSubmit">
+
+    <!--信息填写-->
+    <view>
+      <text class='h_sametext'>手机号：</text>
+      <view class='base'>
+      <view class="modle-register-box">
+        <input placeholder-class='h_placeholder' class='' maxlength='11' type="number" name='phonenumber' bindinput="inputnums" id='numbersd' focus="{{falsk}}" bindfocus="numfocus" placeholder="手机号码" value="{{phonenums}}" />
+         <image bindtap="clearnums" class='h_disclear clear-close' hidden="{{clearnum}}" src="http://juyuanimg.oss-cn-shenzhen.aliyuncs.com/wx/Rectangle%2066.png"></image>
+      </view>
+      </view>
+      <view class='base'>
+      <view class="modle-register-box">
+        <input placeholder-class='h_placeholder' class='shorten-input' maxlength='6' type="number" name='mescode' placeholder="验证码" />
+        <text class='h_getcode get-code-btn' bindtap="getcode">{{getcode}}</text>
+      </view>
+      </view>
+    </view>
+    <view>
+      <text class='h_sametext'>密码：</text>
+      <view class='base'>
+      <view class="modle-register-box">
+        <input placeholder-class='h_placeholder' type="{{typekind}}" name='password' class='shorten-input' maxlength='15' bindfocus="pwdfocus" focus="{{pwdsk}}" value="{{phonepwd}}" placeholder="密码为6～15字符" />
+        <image bindtap="clearpwd" class='h_noclear clear-close' hidden="{{clearpwd}}" src="http://juyuanimg.oss-cn-shenzhen.aliyuncs.com/wx/Rectangle%2066.png"></image>
+        <text class='h_getcode get-code-btn' bindtap="showpwd">{{showpwd}}</text>
+      </view>
+      </view>
+    </view>
+    <view>
+      <text class='h_sametext'>微信号：</text>
+      <view class='base'>
+      <view class="modle-register-box">
+       <input placeholder-class='h_placeholder' disabled="{{wx_name}}" value='{{nickname}}' name='wxno' class='' maxlength='20' type='text' placeholder="微信号" />
+      </view>
+      </view>
+    </view>
+    <view>
+      <text class='h_sametext'>地址：</text>
+      <view class='base'>
+       <view class="modle-register-box">
+         <input placeholder-class='h_placeholder' name='address' class='' maxlength='20' type='text' placeholder="详细地址" />
+       </view>
+      </view>
+    </view>
+    <view>
+      <text class='h_sametext'>真实姓名：</text>
+      <view class='base'>
+      <view class="modle-register-box">
+        <input placeholder-class='h_placeholder' name='trueName' class='' type='text' placeholder="真实姓名" />
+      </view>
+      </view>
+    </view>
+    <view>
+      <text class='h_sametext'>身份证号：</text>
+      <view class='base'>
+      <view class="modle-register-box">
+         <input placeholder-class='h_placeholder' name='idCard' class='' type='idcard' placeholder="输入身份证号" />
+      </view>
+       
+      </view>
+    </view>
+
+    <!--身份证上传-->
+    <view class='base'>
+
+      <!--正面-->
+      <view class='h_idcard' hidden="{{uploadimgup}}" bindtap="upload_up">
+        <image class='h_idcardmo' src="http://juyuanimg.oss-cn-shenzhen.aliyuncs.com/wx/Rectangle%2031.png"></image>
+        <text class='h_tesk'>上传身份证正面</text>
+      </view>
+      <view class='h_cardksuo' hidden="{{uploadimgupshow}}">
+        <image class='h_cardks' src="{{upimgshow}}"></image>
+        <text class='h_reupload' bindtap="upload_up">重新上传</text>
+      </view>
+
+      <!--反面-->
+      <view class='h_idcard' hidden="{{uploadimgdown}}" bindtap="upload_down">
+        <image class='h_idcardmo' src="http://juyuanimg.oss-cn-shenzhen.aliyuncs.com/wx/Rectangle%2031.png"></image>
+        <text class='h_tesk'>上传身份证背面</text>
+      </view>
+      <view class='h_cardksuo' hidden="{{uploadimgdownshow}}">
+        <image class='h_cardks' src="{{downimgshow}}"></image>
+        <text class='h_reupload' bindtap="upload_down">重新上传</text>
+      </view>
+    </view>
+
+    <!--审核申请-->
+    <button class='h_shsy' formType="submit">
+      审核申请
+    </button>
+  </form>
+</view>

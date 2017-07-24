@@ -1,0 +1,111 @@
+.cash-drawall-contans {
+  display: flex;
+  flex-direction: column;
+  font-family: "微软雅黑";
+  color: #4f5f66;
+}
+
+.drawal-title {
+  text-align: center;
+  font-size: 28rpx;
+  font-weight: 700;
+  margin: 25rpx 0;
+  vertical-align: middle;
+}
+
+.drawal-box {
+  flex-direction: row;
+  width: 702rpx;
+  margin: auto;
+  height: 88rpx;
+  background: #efefef;
+  border-radius: 10rpx;
+  font-size: 28rpx;
+  line-height: 88rpx;
+}
+
+.drawal-watch-logo {
+  width: 64rpx;
+  height: 64rpx;
+  vertical-align: middle;
+  margin: 0 13rpx 0 20rpx;
+}
+
+.drawal-account {
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+.watch-name {
+  float: right;
+  vertical-align: middle;
+  margin-right: 22rpx;
+}
+
+.drawa-input-box {
+  width: 702rpx;
+  margin: auto;
+  height: 104rpx;
+  line-height: 104rpx;
+  flex-direction: row;
+  border-bottom: 1px solid #efefef;
+  margin-top: 23rpx;
+}
+
+.cach-icon {
+  font-size: 40rpx;
+  font-weight: 600;
+  margin: 0 22rpx;
+  float: left;
+  vertical-align: middle;
+}
+
+.cash-input {
+  width: 500rpx;
+  float: left;
+  padding: 31rpx 10rpx;
+  vertical-align: middle;
+}
+
+.applicat-btn {
+  width: 702rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 34rpx;
+  background: #27cc23;
+  border-radius: 10rpx;
+  margin: auto;
+  margin-top: 40rpx;
+}
+.min-cash-box{
+  font-size: 28rpx;
+  color: red;
+  width: 702rpx;
+  margin: auto;
+  margin-top: 25rpx;
+}
+.h_ksl{
+  width:100%;
+  border-radius: 0;
+}
+.h_modal view{
+  text-indent: 40rpx;
+    text-align: left;
+    color:#8D9FA7;
+    margin-bottom: 20rpx;
+    margin-top: 20rpx;
+    font-size: 28rpx;
+}
+.h_sameinput{
+    width:93%;
+    text-indent: 40rpx;
+    padding-right: 5%;
+    padding-left:8%;
+    color:#8D9FA7;
+}
+.h_sw{
+  margin-bottom: 0;
+   text-indent: 40rpx;
+}

@@ -1,0 +1,59 @@
+<view class="sales-contans">
+  <text class="sales-title" bindtap='todetail'>销售明细</text>
+  <view class="seles-contan-box">
+    <view class="public-sales sale-right-line">
+      <text class="sale-tips">今日</text>
+      <text class="sale-single">销售单数(单)</text>
+      <text class="sale-num">{{today_count}}</text>
+      <text class="sale-total">销售总额(元)</text>
+      <text class="sale-money">{{today_total_turnover}}</text>
+      <text class="sale-total">所得奖金(元)</text>
+      <text class="sale-money sale-bous">{{today_total_earning}}</text>
+    </view>
+    <view class="public-sales">
+      <text class="sale-tips">昨日</text>
+      <text class="sale-single">销售单数(单)</text>
+      <text class="sale-num">{{yesterday_count}}</text>
+      <text class="sale-total">销售总额(元)</text>
+      <text class="sale-money">{{yesterday_total_turnover}}</text>
+      <text class="sale-total">所得奖金(元)</text>
+      <text class="sale-money sale-bous">{{yesterday_total_earning}}</text>
+    </view>
+    <view class="public-sales sale-right-line">
+      <text class="sale-tips">七天</text>
+      <text class="sale-single">销售单数(单)</text>
+      <text class="sale-num">{{seven_count}}</text>
+      <text class="sale-total">销售总额(元)</text>
+      <text class="sale-money">{{seven_total_turnover}}</text>
+      <text class="sale-total">所得奖金(元)</text>
+      <text class="sale-money sale-bous">{{seven_total_earning}}</text>
+    </view>
+    <view class="public-sales">
+      <text class="sale-tips">本月</text>
+      <text class="sale-single">销售单数(单)</text>
+      <text class="sale-num">{{month_count}}</text>
+      <text class="sale-total">销售总额(元)</text>
+      <text class="sale-money">{{month_total_turnover}}</text>
+      <text class="sale-total">所得奖金(元)</text>
+      <text class="sale-money sale-bous">{{month_total_earning}}</text>
+    </view>
+    <view class="public-sales sale-right-line">
+      <text class="sale-tips">上月</text>
+      <text class="sale-single">销售单数(单)</text>
+      <text class="sale-num">{{last_month_count}}</text>
+      <text class="sale-total">销售总额(元)</text>
+      <text class="sale-money">{{last_month_total_turnover}}</text>
+      <text class="sale-total">所得奖金(元)</text>
+      <text class="sale-money sale-bous">{{last_month_total_earning}}</text>
+    </view>
+    <view class="public-sales">
+      <text class="sale-tips">全年</text>
+      <text class="sale-single">销售单数(单)</text>
+      <text class="sale-num">{{year_count}}</text>
+      <text class="sale-total">销售总额(元)</text>
+      <text class="sale-money">{{year_total_turnover}}</text>
+      <text class="sale-total">所得奖金(元)</text>
+      <text class="sale-money sale-bous">{{year_total_earning}}</text>
+    </view>
+  </view>
+</view>

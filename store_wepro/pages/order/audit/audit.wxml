@@ -1,0 +1,29 @@
+<view class='base h_wrap'>
+  <view class='jsd'></view>
+  <view class='base row heads'>
+    <text bindtap='trusn' data-status="-1" data-index="1" class='{{indes==1?"green":""}}'>全部</text>
+    <text bindtap='trusn' data-status="0" data-index="2" class='{{indes==2?"green":""}}'>未审核</text>
+    <text bindtap='trusn' data-status="3" data-index="3" class='{{indes==3?"green":""}}'>已审核</text>
+  </view>
+  <view class='base col' wx:for="{{tem}}">
+    <view class='base row goodlists' id="{{item.id}}" bindtap="todetali">
+      <view>
+        <image class='goods' src="{{item.goods_img}}"></image>
+      </view>
+      <view class='col weo'>
+        <view class="goodsname">"{{item.goods_name}}"</view>
+        <view class="goodssum">订单总额：¥"{{item.order_amount}}"</view>
+        <view class="goodssum">数量："{{item.goods_num}}" 件</view>
+        <view class="goodstime">下单时间："{{item.add_time}}"</view>
+      </view>
+      <view class='col shenhe'>
+        <view class='base vercen shentext row'>
+          <text wx:if="{{item.status==0}}">审核中</text>
+          <text wx:elif="{{item.status==1}}" style='color:#27CC23'>审核通过</text>
+          <text wx:elif="{{item.status==2}}" style='color:#f32b81'>已拒绝</text>
+          <text class='point'></text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

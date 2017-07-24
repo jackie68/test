@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/order/gooddetaillist/gooddetaillist",
+    "pages/order/book/book",
+    "pages/order/audit/audit",
+    "pages/order/listdetail/listdetail",
+    "pages/order/lists/lists",
+    "pages/order/fail/fail",
+    "pages/order/success/success",
+    "pages/common/common",
+    "pages/regeist/regeist_user/regeist_user",
+    "pages/regeist/login_user/login_user",
+    "pages/regeist/message_main/message_main",
+    "pages/regeist/change_pwd/change_pwd",
+    "pages/wallet/present-record/present-record",
+    "pages/sales-statistics/sales-details/sales-details",
+    "pages/sales-statistics/sales-statistics",
+    "pages/regeist/scan/scan",
+    "pages/wallet/wallet",
+    "pages/wallet/cash-withdrawal/cash-withdrawal",
+    "pages/wallet/cash-fail/cash-fail",
+    "pages/wallet/cash-success/cash-success",
+    "pages/regeist/change_phone/change_phone",
+    "pages/regeist/new_phone/new_phone",
+    "pages/regeist/forget_pwd/forget_pwd",
+    "pages/regeist/message_user/message_user",
+    "pages/regeist/administrator/administrator",
+    "pages/regeist/regist-store/regist-store",
+    "pages/regeist/regist-clerk/regist-clerk",
+    "pages/regeist/changeadr/changeadr",
+    "pages/login/login",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "聚联-供应链",
+    "navigationBarTextStyle": "#fff",
+    "enablePullDownRefresh": false
+  }
+}

@@ -1,0 +1,21 @@
+<view class="sale-details-contans">
+  <view class="sale-detail-box">
+
+    <view class="sale-list-box" wx:for="{{temp}}">
+      <image class="sale-img" src="{{item.goods_img}}"></image>
+      <view class="sale-left-box">
+        <text class="sale-title">{{item.goods_name}}</text>
+        <view class="sale-total-modle">
+          <text>总额：¥{{item.cur_goods_price}}</text>
+          <view class="detail-bous">
+            <text>奖金：</text>
+            <text class="boule-color">¥{{item.op_money}}</text>
+          </view>
+        </view>
+        <text class="sale-time-box">{{item.add_time}}</text>
+      </view>
+    </view>
+
+    
+  </view>
+</view>

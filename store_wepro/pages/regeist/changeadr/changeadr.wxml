@@ -1,0 +1,18 @@
+<view class='base h_wrap'>
+<form bindsubmit="formsubmit">
+    <view>
+         <text class='h_sametext'>地址：</text>
+         <view class='base'>
+            <input bindfocus="putin" bindinput="puton" focus="{{focusd}}" placeholder-class='h_placeholder' class='h_sameinput' type="text" value="{{ads}}"/>
+            <image name='address' bindtap='inputclear' hidden="{{clear}}" class='h_disclear'  src="http://juyuanimg.oss-cn-shenzhen.aliyuncs.com/wx/Rectangle%2066.png"></image>
+         </view>
+         
+    </view>
+      <button formType="submit" class='h_shsy' bindtap="save">
+       保存
+   </button>
+</form>
+   <modal hidden="{{flag}}" bindconfirm='confirm' bindcancel='cancel' class='h_modal' confirm-text="保存" cancel-text="取消" title="地址信息修改">
+   <view>地址信息已修改，保存地址信息？</view> 
+   </modal>
+</view>

@@ -1,0 +1,18 @@
+<view class='base h_wrap'>
+<form bindsubmit="formSubmit">
+    <text class='h_logins'>登录</text>
+    <view class='h_phonenum'>
+       <label>账号</label>
+       <input name='name' maxlength="11" type='number' placeholder-class="h_iks" placeholder="手机号"/>
+    </view>
+    <view class='h_phonenum'>
+       <label>密码</label>
+       <input password name="pass" placeholder-class="h_iks" placeholder="密码"/>
+    </view>
+    <button formType="submit" class='h_loginmian'>登录</button>
+</form>
+    <view class='base'>
+        <view class='h_reg' bindtap='url_toreg'>快速注册</view>
+        <view class='h_forget' bindtap='url_toforget'>忘记密码?</view>
+    </view>
+</view>

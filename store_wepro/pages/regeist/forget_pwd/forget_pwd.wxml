@@ -1,0 +1,38 @@
+<view class='base h_wrap'>
+      <!--信息填写-->
+    <form bindsubmit="formSubmit">
+     <view>
+         <text class='h_sametext'>手机号：</text>
+         <view class="modle-box">
+         <view class='base'>
+            <input placeholder-class='h_placeholder' class='modle-phone' maxlength='11' type="number" name='phonenumber' bindblur="inputnums" id='numbersd' focus="{{falsk}}" bindfocus="numfocus" placeholder="手机号码" value="{{phonenums}}"/>
+            <image bindtap="clearnums" class='h_disclear molde-delet' hidden="{{clearnum}}"  src="../../../resources/image/nation/Rectangle 66.png"></image>
+         </view>
+         </view>
+
+         <view class="modle-box">
+          <view class='base'>
+            <input placeholder-class='h_placeholder' class='modle-code' maxlength='6' type="number" name='mescode' placeholder="验证码"/>
+            <text class='h_getcode code-btms' bindtap="getcode">{{getcode}}</text>
+         </view>
+         </view>
+         
+    </view>
+
+
+     <view>
+         <text class='h_sametext'>密码：</text>
+         <view class="modle-box">
+         <view class='base'>
+            <input placeholder-class='h_placeholder' type="{{typekind}}" name='password' class='modle-phone'  maxlength='15'  bindfocus="pwdfocus" focus="{{pwdsk}}" value="{{phonepwd}}" placeholder="密码为6～15字符"/>
+              <image bindtap="clearpwd" class='h_noclear molde-delet' hidden="{{clearpwd}}"   src="../../../resources/image/nation/Rectangle 66.png"></image>
+            <text class='h_getcode code-btms' bindtap="showpwd">{{showpwd}}</text>
+         </view>
+         </view>
+          
+    </view>
+     <button formType='submit' class='h_shsy'>
+        重置密码
+   </button>
+   </form>
+</view>

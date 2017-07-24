@@ -1,0 +1,6 @@
+<view class="publi-administrator">
+
+     <text class="public-admin shopowner" bindtap="binShopowner">店长</text>
+     <text class="public-admin shopclerk" bindtap="binClerk">店员</text>
+  
+</view>

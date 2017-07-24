@@ -1,0 +1,29 @@
+.modle-box{
+    width: 100%;
+    height: 88rpx;
+    line-height: 88rpx;
+    background: #EFEFEF;
+    border-radius: 10rpx;
+    position: relative;
+    margin-top: 10rpx;
+    margin-bottom: 25rpx;
+}
+.modle-box input{
+    height: 88rpx;
+    line-height: 88rpx;
+    padding: 0 15rpx;
+    font-size: 28rpx;
+    float: left;
+}
+.modle-phone{
+    width: 80%;
+}
+.molde-delet{
+    top: 20rpx;
+}
+.modle-code{
+    width: 60%;
+}
+.code-btms{
+    top: 0;
+}

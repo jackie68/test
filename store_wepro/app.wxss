@@ -1,0 +1,99 @@
+page{
+     font-family: '微软雅黑';
+}
+.base{
+    width:100%;
+    position:relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.col{
+    display: flex;
+    flex-direction: column; 
+}
+.row{
+     display: flex;
+    flex-direction: row; 
+}
+.vercen{
+    /*垂直居中*/
+     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+/*复用样式*/
+.h_wrap{
+    width:94%;
+    margin: 3%;
+    overflow: hidden;
+}
+.h_sametext{
+    font-size: 26rpx;
+    color:#4F5F66;
+    margin: 10rpx;
+    margin-left: 20rpx;
+    font-weight: bold;
+    
+}
+.h_sameinput{
+    width: 94%;
+    padding:15rpx 3%;
+    background:#EFEFEF;
+    border-radius: 10rpx;
+    font-size: 28rpx;
+    color: #4F5F66;
+    margin: 20rpx 0;
+    font-family: '微软雅黑';
+}
+.h_placeholder{
+   color: #8D9FA7;
+}
+.h_disclear{
+    position: absolute;
+    width: 48rpx;
+    height: 48rpx;
+    right:30rpx;
+    z-index:2;
+    top:38rpx;
+}
+.h_noclear{
+    position: absolute;
+    width: 48rpx;
+    height: 48rpx;
+    right:100rpx;
+    z-index:2;
+    top:35rpx;
+}
+.h_getcode{
+    color: #586C94;
+    font-size: 28rpx;
+    position: absolute;
+    top:43rpx;
+    right:30rpx;
+    z-index:2;
+}
+.h_shsq{
+    width: 100%;
+    height: 88rpx;
+    line-height: 88rpx;
+    background: #8AD988;
+    color: #fff;
+    border-radius: 10rpx;
+    font-size: 34rpx;
+    text-align: center;
+     margin-top:30rpx;
+    margin-bottom:20rpx;
+}
+
+.h_shsy{
+    width: 100%;
+    height: 88rpx;
+    line-height: 88rpx;
+    background: #27CC23;
+    color: #fff;
+    border-radius: 10rpx;
+    font-size: 34rpx;
+    text-align: center;
+     margin-top:30rpx;
+    margin-bottom:20rpx;
+}

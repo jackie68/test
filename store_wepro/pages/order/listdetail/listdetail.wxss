@@ -1,0 +1,58 @@
+page {
+  background: #eee;
+}
+.h_bodys{
+    width:92%;
+    background: #fff;
+    border-radius:10rpx;
+    padding: 20rpx 0 0;
+}
+.listj{
+    width:92%;
+    color: #4F5F66;
+    font-size: 28rpx;
+
+}
+.eur{
+    font-weight: bold;
+}
+.listj text{
+    margin:5rpx 0;
+}
+.eudr{
+    width: 100%;
+    height: 88rpx;
+    line-height: 88rpx;
+    margin-top: 30rpx;
+    border-top: 2rpx solid #efefef;
+    text-align: center;
+    font-size: 28rpx;
+}
+.shpass{
+    color:#27CC23;
+}
+.shing{
+    color:#FD5E24;
+}
+.shfail{
+    color:#f32b81;
+}
+.h_jes{
+    width:97%;
+    margin-top: 20rpx;
+}
+.efail{
+    width:46%;
+    background: #fff;
+    color:#4F5F66;
+    font-size: 34rpx;
+}
+.epass{
+    font-size: 34rpx;
+    color:#fff;
+    width:46%;
+    background: #27CC23;
+}
+.wiks{
+    width:96%;
+}

@@ -1,0 +1,27 @@
+.model-change{
+    width: 100%;
+    height: 88rpx;
+    line-height: 88rpx;
+    background: #EFEFEF;
+    border-radius: 10rpx;
+    margin-bottom: 30rpx;
+    margin-top: 15rpx;
+    position: relative;
+}
+.model-change input{
+    width: 80%;
+    height: 88rpx;
+    line-height: 88rpx;
+    padding: 0 15rpx;
+    font-size: 28rpx;
+    float: left;
+}
+.change-icon{
+    top: 20rpx;
+}
+.model-change input.chage-box{
+    width: 60%;
+}
+.change-top{
+    top: 0;
+}

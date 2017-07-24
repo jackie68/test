@@ -1,0 +1,37 @@
+<view class='base h_wrap'  hidden="{{hid}}">
+    <view class='base col h_bodys'>
+        <view class='base col listj'>
+            <text class='eur'>下单员：</text> 
+            <text>{{name}}</text>
+        </view>
+        <view class='base col listj'>
+            <text class='eur'>商品名：</text> 
+            <text>{{goodsname}}</text>
+        </view>
+        <view class='base col listj'>
+            <text class='eur'>订单总额：</text> 
+            <text>¥{{sum}}</text>
+        </view>
+        <view class='base col listj'>
+            <text class='eur'>数量：</text> 
+            <text>{{nums}}</text>
+        </view>
+        <view class='base col listj'>
+            <text class='eur'>下单时间：</text> 
+            <text>{{time}}</text>
+        </view>
+        <view class='eudr'>
+            <text wx:if="{{status==1}}" class='shpass'>审核通过</text>
+             <text wx:elif="{{status==0}}" class='shing'>审核中</text>
+              <text wx:elif="{{status==2}}" class='shfail'>已拒绝</text>
+        </view>
+    </view>
+    <view wx:if="{{status==0}}" class='base row h_jes'>
+        <button bindtap='sheh' data-sta="2" class='efail'>拒绝</button>
+        <button  bindtap='sheh' data-sta="1" class='epass'>通过审核</button>
+    </view>
+    <view wx:elif="{{status==2}}" class='base row h_jes'>
+        <button  bindtap='sheh' data-sta="1" class='epass wiks'>通过审核</button>
+    </view>
+    
+</view>

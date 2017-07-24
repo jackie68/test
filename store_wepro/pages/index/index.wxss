@@ -1,0 +1,44 @@
+.flex-container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20rpx 0 20rpx;
+}
+
+.flex-item{
+  margin-top: 20rpx;
+}
+
+.flex-item-text{
+  color: #6E7D84;
+}
+
+.flex-item-input{
+  height: 100rpx;
+  background: #f7f7f7;
+}
+
+.flex-item-input input{
+  height: 100rpx;
+}
+
+.flex-item-input text{
+  line-height: 100rpx;
+  overflow: hidden;
+}
+
+.pos-rel{
+  position:relative;
+}
+
+.pos-abs{
+  position:absolute;
+}
+
+.flex-item-input image{
+  width:60rpx;
+  height:60rpx;
+  position:absolute; 
+  top:20rpx; 
+  right:10rpx;
+}

@@ -1,0 +1,93 @@
+.wallet-contans {
+  display: flex;
+  flex-direction: column;
+  color: #4f5f66;
+  font-family: "微软雅黑";
+}
+
+.wallet-title-box {
+  width: 702rpx;
+  margin: auto;
+  height: 88rpx;
+  line-height: 88rpx;
+  background: #efefef;
+  border-radius: 10rpx;
+  margin-top: 24rpx;
+  font-size: 28rpx;
+}
+
+.wallet-hasthe {
+  margin-left: 22rpx;
+  font-weight: 600;
+}
+
+.wallet-has-bold {
+  font-weight: 600;
+}
+
+.present-record {
+  float: right;
+  margin-right: 51rpx;
+  color: #8d9fa7;
+  position: relative;
+}
+
+.triangle-icon {
+  position: absolute;
+  width: 15rpx;
+  height: 15rpx;
+  border-top: 2px solid #d0d0d0;
+  border-left: 2px solid #d0d0d0;
+  top: 50%;
+  right: -15rpx;
+  margin-top: -8rpx;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.gold-icon {
+  width: 180rpx;
+  height: 180rpx;
+  margin: auto;
+  margin-top: 65rpx;
+}
+
+.current-balance {
+  font-size: 28rpx;
+  text-align: center;
+  margin-top: 44rpx;
+}
+
+.balace-money {
+  font-size: 80rpx;
+  text-align: center;
+  margin-top: 40rpx;
+  color: #27cc23;
+  font-family: "Arial";
+}
+
+.wallte-gross-box {
+  width: 702rpx;
+  height: 96rpx;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  margin: auto;
+  line-height: 96rpx;
+  text-align: center;
+  font-size: 28rpx;
+  color: #8d9fa7;
+  margin-top: 75rpx;
+}
+
+.applicat-buttom {
+  width: 702rpx;
+  height: 88rpx;
+  background: #27cc23;
+  line-height: 88rpx;
+  text-align: center;
+  font-size: 34rpx;
+  color: #fff;
+  margin: auto;
+  margin-top: 40rpx;
+  border-radius: 10rpx;
+}

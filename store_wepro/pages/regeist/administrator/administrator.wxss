@@ -1,0 +1,24 @@
+
+.publi-administrator{
+    display: flex;
+    width: 100%;
+    vertical-align: middle;
+}
+.public-admin{
+    width: 160rpx;
+    height: 160rpx;
+    border-radius: 160rpx;
+    font-size: 36rpx;
+    color: #fff; 
+    line-height: 160rpx;
+    text-align: center;
+    margin-top: 500rpx;
+}
+.shopowner{
+    background: #34A5FF;
+    margin-left: 192rpx;
+}
+.shopclerk{
+    background: #FD9224;
+    margin-left: 46rpx;
+}

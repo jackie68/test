@@ -1,0 +1,123 @@
+page {
+  background: #efefef;
+}
+
+.sale-details-contans {
+  display: flex;
+  flex-direction: column;
+  font-family: "微软雅黑";
+  color: #4f5f66;
+}
+
+.sale-detail-box {
+  width: 702rpx;
+  margin: auto;
+  margin-bottom:20rpx;
+}
+
+.sale-list-box {
+  position: relative;
+  background: #fff;
+  height: 240rpx;
+  border-radius: 10rpx;
+  margin-top: 20rpx;
+}
+
+.sale-img {
+  width: 210rpx;
+  height: 210rpx;
+  float: left;
+  margin: 20rpx;
+}
+
+.sale-left-box {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20rpx 0 0;
+}
+
+.sale-title {
+  font-size: 28rpx;
+  font-weight: 700;
+  margin-top: 20rpx;
+}
+
+.sale-total-modle {
+  margin-top: 22rpx;
+  font-size: 28rpx;
+  vertical-align: middle;
+}
+
+.detail-bous {
+  float: right;
+}
+
+.sale-time-box {
+  font-size: 24rpx;
+  color: #8d9fa7;
+  margin-top: 22rpx;
+  vertical-align: middle;
+}
+
+.boule-color {
+  color: #27cc23;
+}
+.detail-bous image{
+    width: 48rpx;
+    height:48rpx;
+    position: absolute;
+    right:25rpx;
+    bottom:25rpx;
+}
+.summoney{
+   color:#FD7949;
+
+}
+.epass{
+    font-size: 34rpx;
+    color:#fff;
+    width:94%;
+    background: #27CC23;
+}
+.hsko{
+    width:94%;
+    height:96rpx;
+    background: #fff;
+    line-height: 96rpx;
+    border-radius: 10rpx;
+    justify-content:space-between;
+    margin-bottom: 20rpx;
+}
+.sdw{
+    width: 48rpx;
+    height:48rpx;
+    margin:24rpx;
+}
+.choos{
+    display: inline-block;
+    height:40rpx;
+    line-height: 40rpx;
+    font-size:28rpx; 
+    color:#4F5F66;
+    margin-top: 28rpx;
+}
+.sdsa{
+    width: 20%;
+    height:40rpx;
+    line-height: 40rpx;
+    font-size:24rpx; 
+    color:#8D9FA7;
+    margin-top: 28rpx;
+    margin-right:20rpx;
+}
+.point{
+    display: inline-block;
+    width: 8rpx;
+    height:8rpx;
+    margin-left:20rpx;
+    margin-right: 0;
+    margin-top: 15rpx;
+    border-top:4rpx solid #D1D1D1;
+    border-right:4rpx solid #D1D1D1;
+    transform:rotate(45deg);
+}
